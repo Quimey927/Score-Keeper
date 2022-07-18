@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Score Keeper</title>
+  </head>
+  <body>
+    <div class="container">
+      <img src="racket.jpg" alt="Table tennis racket" />
+      <h1>Ping Pong Score Keeper</h1>
+      <p class="score-keeper"><span class="score score-one">0</span> to <span class="score score-two">0</span></p>
+      <p class="use">Use the buttons below to keep score.</p>
+      <p class="playing-to">
+        Playing to
+        <select name="score-select" id="score-select">
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+        </select>
+      </p>
+      <div class="buttons">
+        <button class="player-one">+1 Player One</button>
+        <button class="player-two">+1 Player Two</button>
+        <button class="reset">Reset</button>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

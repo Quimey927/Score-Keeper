@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 300px;
+}
+
+h1 {
+  font-size: 1rem;
+  border-bottom: 1px solid #999;
+  padding: 0.5rem 0;
+}
+
+.score-keeper {
+  font-size: 2rem;
+  padding: 0.5rem 0 0.25rem 0;
+}
+
+.use {
+  font-size: 1rem;
+  padding: 0.25rem 0 0.5rem 0;
+  border-bottom: 1px solid #999;
+}
+
+.playing-to {
+  padding: 0.5rem 0;
+}
+
+button {
+  width: calc((100% - 8px) / 3);
+  padding: 0.2rem 0.1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.player-one {
+  background-color: rgb(13, 202, 193);
+}
+
+.player-two {
+  background-color: lightskyblue;
+}
+
+.reset {
+  background-color: lightsalmon;
+}
